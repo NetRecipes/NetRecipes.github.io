@@ -1,0 +1,73 @@
+baseURL: https://netrecipes.github.io/net-recipes/
+languageCode: en-us
+title: Net Recipes
+theme: PaperMod
+
+# Enable these output formats
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON  # Required for search
+
+params:
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  profileMode:
+    enabled: true
+    title: "Naveen"
+    subtitle: "Follow for free courses on designing `.NET` based `Cloud-Native`, `Distributed Systems`."
+    imageUrl: "/assets/images/logo.jpg"
+    imageTitle: "Net Recipes"
+    buttons:
+      - name: "Courses"
+        url: "/courses/"
+      - name: "Tags"
+        url: "/tags/"
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/NetRecipes"
+    - name: "youtube"
+      url: "https://www.youtube.com/@NetRecipes"
+    - name: "x"
+      url: "https://x.com/NetRecipes"
+  
+  assets:
+    disableFingerprinting: true
+  
+  # Enable search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# Menu configuration
+menu:
+  main:
+    - identifier: courses
+      name: Courses
+      url: /courses/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai
+    lineNos: false

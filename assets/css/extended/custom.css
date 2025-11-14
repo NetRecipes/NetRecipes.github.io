@@ -1,0 +1,87 @@
+/* Make main content area much wider */
+.main {
+  max-width: 95vw !important;
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.post-content {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+/* Remove PaperMod's default max-width restrictions */
+article.post-single {
+  max-width: 100% !important;
+}
+
+.page-header,
+.post-header {
+  max-width: 100% !important;
+}
+
+/* Align header (logo/title and menu) to the left */
+.nav {
+  max-width: 95vw !important;
+  width: 100% !important;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start !important; /* Left align */
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto; /* Push menu to the right side */
+}
+
+.menu {
+  margin-left: 2rem; /* Add some space between title and menu */
+}
+
+/* Ensure header content aligns with page content */
+header.header {
+  max-width: 95vw !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+/* Make tables fully responsive and use full width */
+.post-content table {
+  display: table;
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+/* Allow table cells to wrap text if needed */
+.post-content table th,
+.post-content table td {
+  padding: 10px 15px;
+  text-align: left;
+  border: 1px solid var(--border);
+  word-wrap: break-word;
+  vertical-align: top;
+}
+
+/* First column (Operation) can be narrower */
+.post-content table th:first-child,
+.post-content table td:first-child {
+  white-space: nowrap;
+  width: auto;
+}
+
+.post-content table th {
+  background-color: var(--theme);
+  font-weight: 600;
+}
+
+/* Alternating row colors */
+.post-content table tr:nth-child(even) {
+  background-color: var(--code-bg);
+}
+
+/* Code blocks inside tables should wrap */
+.post-content table

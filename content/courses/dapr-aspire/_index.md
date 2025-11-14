@@ -1,7 +1,19 @@
 ---
-title: "Dapr + Aspire Course"
-description: "Step-by-step lessons on Dapr and Aspire."
+title: "DAPR and .NET Aspire"
+description: "Building Cloud-Native Distributed Systems with .NET Aspire and DAPR"
 weight: 1
 ---
-Welcome to the Dapr + Aspire course!  
-This course has 10 lessons covering introduction, state management, pub/sub, secrets, and more.
+
+```mermaid
+mindmap
+  root((Course Flow))
+    📒 State Management
+    📞 Service Invocation
+    📨 Pub - Sub
+    ⚙️ Configurations
+    🔐 Secrets
+    ⏱️ Bindings
+    📈 Aspire Dashboard
+    📦 Deployment
+
+```

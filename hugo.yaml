@@ -18,7 +18,7 @@ params:
   ShowCodeCopyButtons: true
   profileMode:
     enabled: true
-    title: "Naveen"
+    title: "Net Recipes"
     subtitle: "Follow for free courses on designing `.NET` based `Cloud-Native`, `Distributed Systems`."
     imageUrl: "/assets/images/logo.jpg"
     imageTitle: "Net Recipes"

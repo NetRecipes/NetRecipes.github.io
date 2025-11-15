@@ -1,7 +1,7 @@
 ---
 title: "Spectre.Console - Cheat-sheet"
 summary: "Planned 🔜"
-weight: 2
+weight: 3
 ---
 
 Coming soon ...

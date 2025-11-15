@@ -1,7 +1,7 @@
 ---
-title: "Spectre.Console - Cheat-sheet"
+title: "Let's build a Scrum Poker"
 summary: "Planned 🔜"
-weight: 2
+weight: 4
 ---
 
 Coming soon ...

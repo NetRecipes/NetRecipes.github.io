@@ -1,7 +1,7 @@
 /* Make main content area much wider */
 .main {
   max-width: 95vw !important;
-  width: 100% !important;
+  width: 40% !important;
   margin: 0 auto;
   padding: 0 100px;
 }

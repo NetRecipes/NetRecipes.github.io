@@ -19,7 +19,7 @@ params:
   profileMode:
     enabled: true
     title: "Net Recipes"
-    subtitle: "Follow for free courses on designing `.NET` based `Cloud-Native`, `Distributed Systems`."
+    subtitle: "Cookbook for modern .NET developers: cloud‑native, distributed, and future‑ready systems."
     imageUrl: "/assets/images/logo.jpg"
     imageTitle: "Net Recipes"
     buttons:

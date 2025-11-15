@@ -13,7 +13,7 @@ flowchart LR
     ps[📨 Pub‑Sub]
     cfg[⚙️ Configurations]
     sec[🔐 Secrets]
-    bind[⏱️ Bindings]
+    bind[⏱️ Bindings - CRON]
     dash[📈 Aspire Dashboard]
     dep[📦 Deployment]
     concl[🚢 Conclusion]
@@ -35,7 +35,7 @@ flowchart LR
     click ps "/courses/dapr-aspire/pub-sub/" "Go to Pub-Sub"
     click cfg "/courses/dapr-aspire/configurations/" "Go to Configurations"
     click sec "/courses/dapr-aspire/secrets/" "Go to Secrets"
-    click bind "/courses/dapr-aspire/bindings/" "Go to Bindings"
+    click bind "/courses/dapr-aspire/bindings/" "Go to Bindings - CRON"
     click dash "/courses/dapr-aspire/aspire-dashboard/" "Go to Aspire Dashboard"
     click dep "/courses/dapr-aspire/deployment/" "Go to Deployment"
     click concl "/courses/dapr-aspire/conclusion/" "Go to Conclusion"

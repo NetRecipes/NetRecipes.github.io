@@ -6,7 +6,7 @@ weight: 1
 
 ```mermaid
 flowchart LR
-    root((Course Flow))
+    root((.NET Aspire + DAPR))
     intro[📘 Introduction]
     sm[📒 State Management]
     si[📞 Service Invocation]

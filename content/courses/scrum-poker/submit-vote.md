@@ -1,6 +1,5 @@
 ---
 date: '2025-11-15T20:00:12+05:30'
-draft: true
 title: 'Submit Vote'
 summary: 'Endpoint to `Submit a Vote`'
 tags: ['Design', 'Architecture']

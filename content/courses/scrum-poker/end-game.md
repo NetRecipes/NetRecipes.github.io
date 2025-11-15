@@ -1,6 +1,5 @@
 ---
 date: '2025-11-15T20:00:43+05:30'
-draft: true
 title: 'End Game'
 summary: 'Endpoint to `End the game`'
 tags: ['Design', 'Architecture']

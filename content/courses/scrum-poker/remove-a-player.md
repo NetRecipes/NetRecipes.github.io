@@ -1,6 +1,5 @@
 ---
 date: '2025-11-15T20:00:38+05:30'
-draft: true
 title: 'Remove a Player'
 summary: 'Endpoint to `Remove a player from the game`'
 tags: ['Design', 'Architecture']

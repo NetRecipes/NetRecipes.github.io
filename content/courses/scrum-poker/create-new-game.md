@@ -1,6 +1,5 @@
 ---
 date: '2025-11-15T19:54:22+05:30'
-draft: true
 title: 'Create New Game'
 summary: 'Endpoint to `Create a new Game`'
 tags: ['Design', 'Architecture']

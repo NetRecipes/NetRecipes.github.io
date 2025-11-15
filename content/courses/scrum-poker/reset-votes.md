@@ -1,6 +1,5 @@
 ---
 date: '2025-11-15T20:00:19+05:30'
-draft: true
 title: 'Reset Votes'
 summary: 'Endpoint to `Reset all Votes`'
 tags: ['Design', 'Architecture']

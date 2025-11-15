@@ -1,7 +1,7 @@
 ---
 title: "Let's design a Scrum Poker 🎴"
 summary: "Scrum Poker is an online, real-time, multiplayer game."
-weight: 2
+weight: 1
 ---
 
 Endpoints, Service Contracts and Sequence Diagrams for building a `Scrum Poker` app.

@@ -1,7 +1,7 @@
 ---
 title: "Building Cloud-Native Distributed Systems with .NET Aspire and DAPR"
 summary: ".NET Aspire + DAPR"
-weight: 1
+weight: 2
 ---
 
 This course is a **cookbook for modern .NET developers**.  

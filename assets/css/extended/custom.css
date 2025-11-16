@@ -1,15 +1,27 @@
 /* Make main content area much wider */
 .main {
-  max-width: 95vw !important;
-  width: 40% !important;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 20px;
+
+  /* Desktop: cap width for readability */
+  max-width: 1200px;
 }
 
-.post-content {
-  max-width: 100% !important;
-  width: 100%;
+/* Mobile/tablet: allow full expansion */
+@media (max-width: 768px) {
+  .main {
+    max-width: 95vw !important;
+  }
 }
+
+.post-content pre,
+.post-content code {
+  white-space: pre-wrap;   /* allow wrapping */
+  word-break: break-word;  /* break long tokens */
+  overflow-x: auto;        /* fallback scroll if truly needed */
+}
+
 
 /* Remove PaperMod's default max-width restrictions */
 article.post-single {

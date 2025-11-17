@@ -1,9 +1,9 @@
 ---
-date: '2025-11-10T17:34:06+05:30'
+date: '2025-11-12T17:34:06+05:30'
 title: '📒 State Management'
 summary: 'DAPR - State Store'
 tags: ['.NET Aspire', 'DAPR', 'Redis', 'State Management', 'In-Memory']
-weight: 20
+weight: 10
 ---
 
 - [ ] Overview

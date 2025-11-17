@@ -1,5 +1,5 @@
 ---
-date: '2025-11-15T19:58:20+05:30'
+date: '2025-11-06T19:58:20+05:30'
 title: 'Join Existing Game'
 summary: 'Endpoint to `Join an existing Game`'
 tags: ['Design', 'Architecture']

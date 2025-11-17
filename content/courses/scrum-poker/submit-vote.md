@@ -1,5 +1,5 @@
 ---
-date: '2025-11-15T20:00:12+05:30'
+date: '2025-11-07T20:00:12+05:30'
 title: 'Submit Vote'
 summary: 'Endpoint to `Submit a Vote`'
 tags: ['Design', 'Architecture']

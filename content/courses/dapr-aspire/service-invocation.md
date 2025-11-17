@@ -1,9 +1,9 @@
 ---
-date: '2025-11-10T17:34:18+05:30'
+date: '2025-11-14T17:34:18+05:30'
 title: '📞 Service Invocation'
 summary: 'Service Discovery and Invocation'
 tags: ['.NET Aspire', 'DAPR']
-weight: 30
+weight: 20
 ---
 
 - [ ] Overview

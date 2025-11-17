@@ -12,7 +12,7 @@ Instead of full demo applications with extra boilerplate, we’ll use **simple s
 > Feel free to take the course in order, or jump directly to the building block you are interested in.
 
 ```mermaid
-flowchart TD
+flowchart LR
     root((.NET Aspire + DAPR))
     sm[📒 State Management]
     si[📞 Service Invocation]

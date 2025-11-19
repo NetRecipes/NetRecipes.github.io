@@ -3,7 +3,7 @@ date: '2025-11-06T19:58:20+05:30'
 title: 'Join Existing Game'
 summary: 'Endpoint to `Join an existing Game`'
 tags: ['Design', 'Architecture']
-weight: 20
+weight: 12
 ---
 
 ```mermaid

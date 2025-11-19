@@ -3,7 +3,7 @@ date: '2025-11-10T20:00:38+05:30'
 title: 'Remove a Player'
 summary: 'Endpoint to `Remove a player from the game`'
 tags: ['Design', 'Architecture']
-weight: 60
+weight: 16
 ---
 
 ```mermaid

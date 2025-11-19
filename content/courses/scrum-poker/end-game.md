@@ -3,7 +3,7 @@ date: '2025-11-11T20:00:43+05:30'
 title: 'End Game'
 summary: 'Endpoint to `End the game`'
 tags: ['Design', 'Architecture']
-weight: 70
+weight: 17
 ---
 
 ```mermaid

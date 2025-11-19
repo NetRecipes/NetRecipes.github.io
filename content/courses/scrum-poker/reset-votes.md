@@ -3,7 +3,7 @@ date: '2025-11-08T20:00:19+05:30'
 title: 'Reset Votes'
 summary: 'Endpoint to `Reset all Votes`'
 tags: ['Design', 'Architecture']
-weight: 40
+weight: 14
 ---
 
 ```mermaid

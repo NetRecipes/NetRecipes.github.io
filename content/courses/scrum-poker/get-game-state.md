@@ -3,7 +3,7 @@ date: '2025-11-09T20:00:32+05:30'
 title: 'Get Game State'
 summary: 'Endpoint to `Get current state of the game`'
 tags: ['Design', 'Architecture']
-weight: 50
+weight: 15
 ---
 
 ```mermaid

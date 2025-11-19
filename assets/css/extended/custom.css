@@ -95,5 +95,146 @@ header.header {
   background-color: var(--code-bg);
 }
 
-/* Code blocks inside tables should wrap */
-.post-content table
+/* ============================================ */
+/* CARD LAYOUT FOR COURSES AND POST LISTINGS   */
+/* ============================================ */
+
+/* Style all post-entry items as cards */
+body.list .post-entry {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: var(--entry);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+body.list .post-entry:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-color: var(--tertiary);
+}
+
+/* Entry header */
+body.list .post-entry .entry-header {
+  margin-bottom: 0.75rem;
+}
+
+body.list .post-entry .entry-header h2 {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.4;
+}
+
+/* Entry content/summary */
+body.list .post-entry .entry-content {
+  flex: 1;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--secondary);
+}
+
+/* Entry footer with metadata */
+body.list .post-entry .entry-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--secondary);
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Make the entire card clickable */
+body.list .post-entry .entry-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* Apply grid ONLY when page has .post-content before .post-entry */
+/* This means: course detail pages with intro content get grid layout */
+/* But course listing pages without .post-content stay vertical */
+body.list .main:has(.post-content) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* Reset margin for grid items */
+body.list .main:has(.post-content) .post-entry {
+  margin-bottom: 0;
+}
+
+/* Keep page-header full width at top */
+body.list .main:has(.post-content) .page-header {
+  grid-column: 1 / -1;
+}
+
+/* Keep post-content (intro text) full width */
+body.list .main:has(.post-content) > .post-content {
+  grid-column: 1 / -1;
+}
+
+/* Keep any hr full width */
+body.list .main:has(.post-content) > hr {
+  grid-column: 1 / -1;
+}
+
+/* Keep any headings full width */
+body.list .main:has(.post-content) > h1,
+body.list .main:has(.post-content) > h2,
+body.list .main:has(.post-content) > h3 {
+  grid-column: 1 / -1;
+}
+
+/* Keep mermaid diagrams full width */
+body.list .main:has(.post-content) > .mermaid {
+  grid-column: 1 / -1;
+}
+
+/* Keep blockquotes full width */
+body.list .main:has(.post-content) > blockquote {
+  grid-column: 1 / -1;
+}
+
+/* Keep lists full width */
+body.list .main:has(.post-content) > ul,
+body.list .main:has(.post-content) > ol {
+  grid-column: 1 / -1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body.list .main:has(.post-content) {
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+  }
+  
+  body.list .post-entry {
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body.list .main:has(.post-content) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Larger screens: allow more columns if space permits */
+@media (min-width: 1200px) {
+  body.list .main:has(.post-content) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

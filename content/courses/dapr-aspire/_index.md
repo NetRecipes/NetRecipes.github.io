@@ -1,6 +1,6 @@
 ---
 date: '2025-11-12T17:35:05+05:30'
-title: "Building Cloud-Native Distributed Systems with .NET Aspire and DAPR"
+title: "🚧 Building Cloud-Native Distributed Systems with .NET Aspire and DAPR"
 summary: ".NET Aspire + DAPR"
 weight: 1
 ---

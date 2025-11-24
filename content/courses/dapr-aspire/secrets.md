@@ -8,3 +8,5 @@ weight: 5
 
 - [ ] Overview
 - [ ] Secrets with DAPR
+- [ ] Deployment
+- [ ] Kubernetes Secrets

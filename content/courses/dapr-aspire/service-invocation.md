@@ -9,3 +9,4 @@ weight: 2
 - [ ] Overview
 - [ ] Service Invocation with Aspire
 - [ ] Service Invocation with DAPR
+- [ ] Deployment

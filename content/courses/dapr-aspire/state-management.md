@@ -9,3 +9,4 @@ weight: 1
 - [ ] Overview
 - [ ] State Management with DAPR
 - [ ] Power of Abstraction
+- [ ] Deployment

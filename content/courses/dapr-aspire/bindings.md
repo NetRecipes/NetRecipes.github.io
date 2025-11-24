@@ -8,3 +8,4 @@ weight: 6
 
 - [ ] Overview
 - [ ] CRON with DAPR
+- [ ] Deployment

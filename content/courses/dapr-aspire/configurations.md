@@ -8,3 +8,4 @@ weight: 4
 
 - [ ] Overview
 - [ ] Configurations with DAPR
+- [ ] Deployment

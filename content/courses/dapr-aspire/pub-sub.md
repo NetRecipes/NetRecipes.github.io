@@ -9,3 +9,4 @@ weight: 3
 - [ ] Overview
 - [ ] Pub / Sub with DAPR
 - [ ] Power of Abstraction
+- [ ] Deployment

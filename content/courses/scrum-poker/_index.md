@@ -3,6 +3,7 @@ date: '2025-11-05T19:54:22+05:30'
 title: "🚧 Let's design a Scrum Poker 🎴"
 summary: "Scrum Poker is an online, real-time, multiplayer game."
 weight: 2
+draft: true
 ---
 
 Endpoints, Service Contracts and Sequence Diagrams for building a `Scrum Poker` app.

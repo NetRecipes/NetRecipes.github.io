@@ -15,19 +15,33 @@ Instead of full demo applications with extra boilerplate, we’ll use **simple s
 flowchart LR
     root((.NET Aspire + DAPR))
     sm[📒 State Management]
+    im-ss[In-Memory State Store]
+    redis-ss[Redis State Store]
     si[📞 Service Invocation]
     ps[📨 Pub‑Sub]
+    redis-ps[Redis Pub-Sub]
+    rabbit-ps[🐇 RabbitMQ Pub-Sub]
     cfg[⚙️ Configurations]
+    redis-cfg[ Redis Config Store]
     sec[🔐 Secrets]
+    json-sec[Local JSON File]
+    env-sec[Environment Variables]
     bind[🖇️  Bindings]
     cron[⏱️ CRON - Input Binding]
     store[📦 Storage - Output Binding]
 
     root --> sm
+    sm --> im-ss
+    sm --> redis-ss
     root --> si
     root --> ps
+    ps --> redis-ps
+    ps --> rabbit-ps
     root --> cfg
+    cfg --> redis-cfg
     root --> sec
+    sec --> json-sec
+    sec --> env-sec
     root --> bind
     bind --> cron
     bind --> store

@@ -19,7 +19,9 @@ flowchart LR
     ps[📨 Pub‑Sub]
     cfg[⚙️ Configurations]
     sec[🔐 Secrets]
-    bind[⏱️ Bindings - CRON]
+    bind[🖇️  Bindings]
+    cron[⏱️ CRON - Input Binding]
+    store[📦 Storage - Output Binding]
     dash[📈 Aspire Dashboard]
 
     root --> sm
@@ -28,6 +30,8 @@ flowchart LR
     root --> cfg
     root --> sec
     root --> bind
+    bind --> cron
+    bind --> store
     root --> dash
 
     click sm "/courses/dapr-aspire/state-management/" "Go to State Management"
@@ -35,7 +39,9 @@ flowchart LR
     click ps "/courses/dapr-aspire/pub-sub/" "Go to Pub-Sub"
     click cfg "/courses/dapr-aspire/configurations/" "Go to Configurations"
     click sec "/courses/dapr-aspire/secrets/" "Go to Secrets"
-    click bind "/courses/dapr-aspire/bindings/" "Go to Bindings - CRON"
+    click bind "/courses/dapr-aspire/bindings/" "Go to Bindings"
+    click cron "/courses/dapr-aspire/bindings/#cron" "Go to Bindings - CRON"
+    click store "/courses/dapr-aspire/bindings/#local-storage" "Go to Bindings - Storage"
     click dash "/courses/dapr-aspire/aspire-dashboard/" "Go to Aspire Dashboard"
 ```
 

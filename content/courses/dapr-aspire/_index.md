@@ -22,7 +22,6 @@ flowchart LR
     bind[🖇️  Bindings]
     cron[⏱️ CRON - Input Binding]
     store[📦 Storage - Output Binding]
-    dash[📈 Aspire Dashboard]
 
     root --> sm
     root --> si
@@ -32,7 +31,6 @@ flowchart LR
     root --> bind
     bind --> cron
     bind --> store
-    root --> dash
 
     click sm "/courses/dapr-aspire/state-management/" "Go to State Management"
     click si "/courses/dapr-aspire/service-invocation/" "Go to Service Invocation"
@@ -42,7 +40,6 @@ flowchart LR
     click bind "/courses/dapr-aspire/bindings/" "Go to Bindings"
     click cron "/courses/dapr-aspire/bindings/#cron" "Go to Bindings - CRON"
     click store "/courses/dapr-aspire/bindings/#local-storage" "Go to Bindings - Storage"
-    click dash "/courses/dapr-aspire/aspire-dashboard/" "Go to Aspire Dashboard"
 ```
 
 ---

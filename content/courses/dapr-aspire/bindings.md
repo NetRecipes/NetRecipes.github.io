@@ -1,6 +1,6 @@
 ---
 date: '2025-11-18T17:34:53+05:30'
-title: '⏱️ Bindings - CRON'
+title: '🖇️ Bindings'
 summary: 'DAPR Bindings - Input and Output Bindings'
 tags: ['.NET Aspire', 'DAPR', 'CRON', 'Storage']
 weight: 6

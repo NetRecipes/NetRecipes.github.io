@@ -20,9 +20,4 @@ weight: 1
 
 [View on GitHub](https://github.com/NetRecipes/state-management)
 
-| Resource | Link |
-|----------|------|
-| 📺 Video | {{< youtube dQw4w9WgXcQ >}} |
-| 💻 Code  | [GitHub Repo](https://github.com/NetRecipes/state-management) |
-
 ---

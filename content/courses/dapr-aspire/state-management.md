@@ -223,6 +223,12 @@ public async Task<IActionResult> Read(int id)
 }
 ```
 
+BTW, Product can be a simple `record` / `POCO`
+
+```cs
+public record Product(int Id, string Name, decimal Price);
+```
+
 ---
 
 ### 3. Configure State Store in AppHost
@@ -255,7 +261,7 @@ var servicea = builder
 builder.Build().Run();
 ```
 
-You’ll need a components/pubsub.yaml file with the following content:
+You’ll need a `components/statestore.yaml` file with the following content:
 
 ```yaml
 apiVersion: dapr.io/v1alpha1
@@ -272,7 +278,7 @@ spec:
 
 Now, when you run your setup, you should see Aspire dashboard.
 
-You can visit the `ServiceA`'s Swagger endpoint, with `/swagger` at the end of the url
+You can visit the `ServiceA`'s Swagger endpoint, with `/swagger` at the end of the URL
 
 ![Aspire Dashboard](https://i.ibb.co/rRYSxnwd/state-management-aspire-dashboard.png)
 
@@ -288,7 +294,7 @@ When you call `/read` endpoint, it gets back the state from `in-memory`
 
 ## In-Memory State Store
 
-When I say, it writes `in-memory`, that's because, how it's configured in the `pubsub/yaml`
+When I say, it writes `in-memory`, that's because, how it's configured in the `statestore.yaml`
 
 ```yaml
 type: state.in-memory
@@ -296,7 +302,7 @@ type: state.in-memory
 
 ## Redis State Store
 
-Now if you want to see the real power of abstraction, stop the debugger, replace the contents of `components/pubsub.yaml` with below content
+Now if you want to see the real power of abstraction, stop the debugger, replace the contents of `components/statestore.yaml` with below content
 
 ```yaml
 apiVersion: dapr.io/v1alpha1

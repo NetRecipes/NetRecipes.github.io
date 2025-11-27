@@ -1,13 +1,11 @@
 ---
-date: '2026-01-01T00:00:00+05:30'
+date: '2025-11-01T00:00:00+05:30'
 title: "🚧 Building Cloud-Native Distributed Systems with .NET Aspire and DAPR"
 summary: ".NET Aspire + DAPR"
 weight: 1
 ---
 
-## Overview
-
-**For .NET developers** building **cloud-native, distributed systems** that are **cloud-agnostic**.
+For .NET developers building **cloud-native, distributed systems** that are **cloud-agnostic**.
 
 If you're comfortable with C# and ASP.NET Core but new to distributed architecture, this cookbook delivers core building blocks using **.NET Aspire** for orchestration and developer experience, and **DAPR** for eliminating boilerplate.
 

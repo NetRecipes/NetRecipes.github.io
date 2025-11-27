@@ -6,8 +6,8 @@ weight: 1
 ---
 
 This course teaches you how to design scalable, cloud‑native distributed systems in .NET using `Aspire` and `DAPR`.  
-We focus on practical building blocks through minimal service examples, so you learn the essentials without boilerplate distractions.  
-By the end of the course, you’ll understand Aspire’s orchestration capabilities, DAPR’s runtime building blocks, and how to combine them into robust, production‑ready architectures.  
+We use minimal service examples to keep the focus on essentials, not boilerplate.  
+By the end of the course, you’ll understand `Aspire`’s orchestration capabilities, `DAPR`’s runtime building blocks, and how to combine them into robust, production‑ready architectures.  
 You can follow the course step by step or jump directly to the topics most relevant to your work.
 
 ## Prerequisites
@@ -55,6 +55,8 @@ flowchart LR
     bind --> store
 
     click sm "/courses/dapr-aspire/state-management/" "Go to State Management"
+    click im-ss "/courses/dapr-aspire/state-management/#in-memory-state-store" "Go to In-Memory State Management"
+    click redis-ss "/courses/dapr-aspire/state-management/#redis-state-store" "Go to Redis State Management"
     click si "/courses/dapr-aspire/service-invocation/" "Go to Service Invocation"
     click ps "/courses/dapr-aspire/pub-sub/" "Go to Pub-Sub"
     click cfg "/courses/dapr-aspire/configurations/" "Go to Configurations"
@@ -66,20 +68,20 @@ flowchart LR
 
 ---
 
-## ⚡ Aspire
+## ⚡ `Aspire`
 
 **.NET Aspire** is Microsoft’s framework for building **cloud-native applications**.
 
 Think of it as *Docker Compose, but better* — not only orchestrating services, but also providing built-in support for configuration, observability, and deployment.  
-Aspire helps make distributed application design smoother, more consistent, and more productive.
+`Aspire` helps make distributed application design smoother, more consistent, and more productive.
 
-### Aspire Installation
+### `Aspire` Installation
 
 ```sh
 dotnet tool install -g aspire.cli
 ```
 
-Verify with installed aspire version
+Verify with installed `aspire` version
 
 ```sh
 aspire --version
@@ -87,19 +89,19 @@ aspire --version
 
 ---
 
-## 🔹 DAPR
+## 🔹 `DAPR`
 
 **DAPR (Distributed Application Runtime)** provides a set of **building blocks for distributed systems** — including state management, pub-sub messaging, service invocation, bindings, and secrets.
 
 It abstracts away infrastructure complexity, so you can focus on designing resilient and scalable systems without reinventing the plumbing.
 
-### DAPR Installation
+### `DAPR` Installation
 
-> Make sure `Docker` / `Podman` is running, when installing and using DAPR
+> Make sure `Docker` / `Podman` is running, when installing and using `DAPR`
 
-Please refer DAPR documentation, for [installation](https://docs.dapr.io/getting-started/install-dapr-cli/) based on your OS.
+Please refer `DAPR` documentation, for [installation](https://docs.dapr.io/getting-started/install-dapr-cli/) based on your OS.
 
-Verify with installed dapr version
+Verify with installed `DAPR` version
 
 ```sh
 dapr --version

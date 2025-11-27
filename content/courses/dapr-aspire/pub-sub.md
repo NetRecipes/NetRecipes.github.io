@@ -6,7 +6,4 @@ tags: ['.NET Aspire', 'DAPR', 'Redis', 'Pub-Sub', 'In-Memory']
 weight: 3
 ---
 
-- [ ] Overview
-- [ ] Pub / Sub with DAPR
-- [ ] Power of Abstraction
-- [ ] Deployment
+## *Chef’s Special 👨‍🍳 Coming Right Up ...*

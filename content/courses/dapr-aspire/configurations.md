@@ -6,6 +6,4 @@ tags: ['.NET Aspire', 'DAPR', 'Redis']
 weight: 4
 ---
 
-- [ ] Overview
-- [ ] Configurations with DAPR
-- [ ] Deployment
+## *Preheating 🔥 Knowledge Oven ... Ready to Serve Shortly!*

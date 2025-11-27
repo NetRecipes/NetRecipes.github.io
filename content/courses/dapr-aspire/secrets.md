@@ -6,7 +6,4 @@ tags: ['.NET Aspire', 'DAPR', 'Kubernetes']
 weight: 5
 ---
 
-- [ ] Overview
-- [ ] Secrets with DAPR
-- [ ] Deployment
-- [ ] Kubernetes Secrets
+## *Simmering 🥘 Content in Progress ... Served Soon!*

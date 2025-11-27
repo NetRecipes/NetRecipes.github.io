@@ -5,9 +5,10 @@ summary: ".NET Aspire + DAPR"
 weight: 1
 ---
 
-For .NET developers building **cloud-native, distributed systems** that are **cloud-agnostic**.
-
-If you're comfortable with C# and ASP.NET Core but new to distributed architecture, this cookbook delivers core building blocks using **.NET Aspire** for orchestration and developer experience, and **DAPR** for eliminating boilerplate.
+This course teaches you how to design scalable, cloud‑native distributed systems in .NET using `Aspire` and `DAPR`.  
+We focus on practical building blocks through minimal service examples, so you learn the essentials without boilerplate distractions.  
+By the end of the course, you’ll understand Aspire’s orchestration capabilities, DAPR’s runtime building blocks, and how to combine them into robust, production‑ready architectures.  
+You can follow the course step by step or jump directly to the topics most relevant to your work.
 
 ## Prerequisites
 
@@ -17,8 +18,6 @@ To follow along comfortably, you’re expected to have the following installed a
 2. `Docker` or `Podman` installed and running locally  
 3. Basic familiarity with `PowerShell` or `Bash` command line environments  
 4. Working knowledge of `C#` and `ASP.NET Core` development  
-
-> Feel free to take the course in order, or jump directly to the building block you are interested in.
 
 ```mermaid
 flowchart LR

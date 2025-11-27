@@ -223,7 +223,7 @@ public async Task<IActionResult> Read(int id)
 }
 ```
 
-BTW, Product can be a simple `record` / `POCO`
+The Product model can be defined as a simple `record` or `POCO`:
 
 ```cs
 public record Product(int Id, string Name, decimal Price);
@@ -274,7 +274,7 @@ spec:
   metadata:
 ```
 
-> It might appear `metadata` is incomplete, this is minimal for `in-memory`
+> Note: For in-memory state stores, no additional metadata fields are required.
 
 Now, when you run your setup, you should see Aspire dashboard.
 
@@ -323,6 +323,8 @@ spec:
 
 This will use `Redis` as it's state store.
 
+> Note: Port 6500 is used here to show you can use any port, not just the default `6379`.
+
 Notice how the `type` is now set to `state.redis`, switching the backend from `in-memory` to `Redis`.
 
 To pass the `Redis` credentials, update the `appsettings.Development.json` file in the `StateManagement.AppHost` project:
@@ -342,15 +344,15 @@ To pass the `Redis` credentials, update the `appsettings.Development.json` file 
 > Note the same password is configured in yaml file.
 
 Now, when you run, both `/write` and `/read` endpoints works as before. Nothing changed. Or, that's how it appears.  
-But when you `write` state value, you can see it is actually written in the `Redis` instance, by visualizing with integrate `Redis Insight`, accessible from `Aspire Dashboard`.
+But when you `write` state value, you can see it is actually written in the `Redis` instance, by visualizing with integrated `Redis Insight`, accessible from `Aspire Dashboard`.
 
 ![Redis Insight](https://i.ibb.co/b5nFbBWQ/state-management-redis-insight.png)
 
-This is the power of abstraction I love about `DAPR` — no implementation changes, just a configuration switch.
+This demonstrates `DAPR`'s powerful abstraction layer — no implementation changes, just a configuration switch.
 
 No implementation changes, just switch to any supported `DAPR` [State Stores](https://docs.dapr.io/reference/components-reference/supported-state-stores/), without changing implementation logic or boilerplate. You don’t even need a different NuGet package.
 
-One can argue, I need to make changes in `Aspire`'s AppHost project, but that's not implementation. That's orchestration, just like `Docker-Compose`.
+Changes to the `AppHost` project are orchestration concerns, not service implementation — similar to how `Docker Compose` manages container configuration.
 
 ---
 

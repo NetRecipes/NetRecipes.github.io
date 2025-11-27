@@ -3,12 +3,28 @@ date: '2025-11-14T17:34:18+05:30'
 title: '📞 Service Invocation'
 summary: 'Service Discovery and Invocation'
 tags: ['.NET Aspire', 'DAPR']
+ShowToc: true
 weight: 2
 ---
 
 This article shows how to use `Service Invocation` with `DAPR`'s building block, combined with `.NET Aspire` for orchestration.
 
 You'll learn how services can communicate reliably in a distributed environment, with `Aspire` managing the setup and `DAPR` providing service discovery and resilient invocation patterns.
+
+```mermaid
+flowchart LR
+    ServiceA["Service A"]
+    subgraph DAPR["DAPR Sidecars"]
+        SidecarA["Sidecar A"]
+        SidecarB["Sidecar B"]
+    end
+    ServiceB["Service B"]
+    
+    ServiceA -->|"Invoke serviceb/api"| SidecarA
+    SidecarA -->|"Service Discovery"| SidecarB
+    SidecarB -->|"Forward request"| ServiceB
+    ServiceB -.->|"Response"| ServiceA
+```
 
 ## Resources
 
@@ -23,6 +39,24 @@ If you are stuck, you can refer the final source code, available at [GitHub Repo
 In microservices architectures, services need to communicate with each other — an order service might call a pricing service, or a frontend might call multiple backend APIs.
 
 Without proper service invocation patterns, you face challenges like hardcoded URLs, lack of service discovery, no retry logic, and difficult debugging across service boundaries.
+
+## Synchronous vs Asynchronous Communication {#synchronous-vs-asynchronous-communication}
+
+In distributed systems, services can communicate in two fundamental ways:
+
+| Aspect | Synchronous Communication | Asynchronous Communication |
+|--------|--------------------------|----------------------------|
+| **Pattern** | Request-Response | Fire-and-Forget / Event-Driven |
+| **Waiting** | Caller waits for response | Caller continues immediately |
+| **Coupling** | Tight coupling — caller knows callee | Loose coupling — via message broker |
+| **Use Case** | Direct queries, immediate results needed | Background tasks, event notifications |
+| **Example** | Get user profile, calculate price | Send email, process order, update analytics |
+| **DAPR Building Block** | **Service Invocation** ([this article](#)) | **Pub/Sub** ([see article](/courses/dapr-aspire/pub-sub/)) |
+| **Failure Handling** | Immediate error response | Retry via message queue |
+
+**This article focuses on synchronous service-to-service communication** using DAPR's Service Invocation building block. When `ServiceA` invokes `ServiceB`, it waits for the response before continuing.
+
+💡 **Note:** For asynchronous communication patterns where services communicate through events and message brokers without waiting for responses, refer to the [📨 Pub-Sub article](/courses/dapr-aspire/pub-sub/).
 
 For example, think of an e‑commerce system where `ServiceA` needs to calculate discounted prices by calling `ServiceB`'s discount calculation endpoint.  
 Without `DAPR`, you'd need to:

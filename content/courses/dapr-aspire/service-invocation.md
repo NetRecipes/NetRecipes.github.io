@@ -40,7 +40,7 @@ In microservices architectures, services need to communicate with each other —
 
 Without proper service invocation patterns, you face challenges like hardcoded URLs, lack of service discovery, no retry logic, and difficult debugging across service boundaries.
 
-## Synchronous vs Asynchronous Communication {#synchronous-vs-asynchronous-communication}
+## Synchronous vs Asynchronous Communication
 
 In distributed systems, services can communicate in two fundamental ways:
 
@@ -54,9 +54,9 @@ In distributed systems, services can communicate in two fundamental ways:
 | **DAPR Building Block** | **Service Invocation** ([this article](#)) | **Pub/Sub** ([see article](/courses/dapr-aspire/pub-sub/)) |
 | **Failure Handling** | Immediate error response | Retry via message queue |
 
-**This article focuses on synchronous service-to-service communication** using DAPR's Service Invocation building block. When `ServiceA` invokes `ServiceB`, it waits for the response before continuing.
+**This article focuses on synchronous service-to-service communication** using `DAPR`'s Service Invocation building block. When `ServiceA` invokes `ServiceB`, it waits for the response before continuing.
 
-💡 **Note:** For asynchronous communication patterns where services communicate through events and message brokers without waiting for responses, refer to the [📨 Pub-Sub article](/courses/dapr-aspire/pub-sub/).
+> 💡 **Note:** For asynchronous communication patterns where services communicate through events and message brokers without waiting for responses, refer to the [📨 Pub-Sub article](/courses/dapr-aspire/pub-sub/).
 
 For example, think of an e‑commerce system where `ServiceA` needs to calculate discounted prices by calling `ServiceB`'s discount calculation endpoint.  
 Without `DAPR`, you'd need to:
@@ -132,6 +132,7 @@ In both `ServiceA` and `ServiceB` projects, install the following NuGet packages
 
 ```bash
 dotnet add ServiceA package Dapr.AspNetCore
+dotnet add ServiceA package Swashbuckle.AspNetCore
 dotnet add ServiceA package Swashbuckle.AspNetCore.SwaggerUI
 dotnet add ServiceA package AspNetCore.SwaggerUI.Themes
 ```
@@ -174,7 +175,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.UseSwaggerUI(
-        ModernStyle.Futuristic,
+        Theme.Futuristic,
         options => options.SwaggerEndpoint("/openapi/v1.json", "ServiceA v1")); // Change to ServiceB for ServiceB
 }
 

@@ -121,6 +121,7 @@ In the **`ServiceA`** project, install the following NuGet packages to enable AP
 
 ```sh
 dotnet add ServiceA package Dapr.AspNetCore
+dotnet add ServiceA package Swashbuckle.AspNetCore
 dotnet add ServiceA package Swashbuckle.AspNetCore.SwaggerUI
 dotnet add ServiceA package AspNetCore.SwaggerUI.Themes
 ```
@@ -164,7 +165,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.UseSwaggerUI(
-        ModernStyle.Futuristic,
+        Theme.Futuristic,
         options => options.SwaggerEndpoint("/openapi/v1.json", "ServiceA v1")); // Optional
 }
 

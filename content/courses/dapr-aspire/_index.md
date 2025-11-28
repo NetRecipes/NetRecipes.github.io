@@ -64,6 +64,8 @@ flowchart LR
     click cfg "/courses/dapr-aspire/configurations/" "Go to Configurations"
     click redis-cfg "/courses/dapr-aspire/configurations/#redis-configuration" "Go to Redis Configurations"
     click sec "/courses/dapr-aspire/secrets/" "Go to Secrets"
+    click json-sec "/courses/dapr-aspire/secrets/#local-json-file" "Go to Local JSON Files"
+    click env-sec "/courses/dapr-aspire/secrets/#environment-variable-secret-store" "Go to Environment Variables"
     click bind "/courses/dapr-aspire/bindings/" "Go to Bindings"
     click cron "/courses/dapr-aspire/bindings/#cron" "Go to Bindings - CRON"
     click store "/courses/dapr-aspire/bindings/#local-storage" "Go to Bindings - Storage"

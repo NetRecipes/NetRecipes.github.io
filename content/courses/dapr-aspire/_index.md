@@ -62,6 +62,7 @@ flowchart LR
     click redis-ps "/courses/dapr-aspire/pub-sub/#4-configure-pub-sub-component-redis" "Go to Redis Pub-Sub"
     click rabbit-ps "/courses/dapr-aspire/pub-sub/#switching-to-rabbitmq" "Go to RabbitMQ Pub-Sub"
     click cfg "/courses/dapr-aspire/configurations/" "Go to Configurations"
+    click redis-cfg "/courses/dapr-aspire/configurations/#redis-configuration" "Go to Redis Configurations"
     click sec "/courses/dapr-aspire/secrets/" "Go to Secrets"
     click bind "/courses/dapr-aspire/bindings/" "Go to Bindings"
     click cron "/courses/dapr-aspire/bindings/#cron" "Go to Bindings - CRON"

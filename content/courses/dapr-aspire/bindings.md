@@ -19,7 +19,7 @@ flowchart LR
     Email["Email / SMS"]
     Queue["Queues"]
 
-    CRON -->|"Input Binding<br/>(trigger every 20s)"| ServiceA
+    CRON -->|"Input Binding<br/>(trigger every 3s)"| ServiceA
     ServiceA -->|"Output Binding<br/>(write file)"| Storage
     ServiceA -.->|"Other outputs"| Email
     ServiceA -.->|"Other outputs"| Queue
@@ -337,7 +337,7 @@ spec:
 #### **Component details (CRON):**
 
 - `type: bindings.cron` - Uses CRON scheduling for input binding
-- `schedule` - CRON expression (`@every 20s`, `@hourly`, `0 2 * * *` for 2 AM daily)
+- `schedule` - CRON expression (`@every 3s`, `@hourly`, `0 2 * * *` for 2 AM daily)
 - `route` - The endpoint DAPR will invoke when the schedule triggers
 
 ### Running with CRON Binding
@@ -419,7 +419,7 @@ sequenceDiagram
     participant SidecarA as Dapr Sidecar
     participant ServiceA
 
-    Note over CRON: Schedule: @every 20s
+    Note over CRON: Schedule: @every 3s
     
     loop Every 20 seconds
         CRON->>SidecarA: Timer triggered

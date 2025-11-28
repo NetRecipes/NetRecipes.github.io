@@ -288,7 +288,7 @@ spec:
 
 Now, when you run your setup, you should see the `Aspire` dashboard with `ServiceA`.
 
-![Aspire Dashboard](https://i.ibb.co/fGCdh7yd/secrets-aspire-dashboard.png)
+![Aspire Dashboard](https://i.ibb.co/jnrkMRg/secrets-aspire-dashboard.png)
 
 #### Testing Secret Retrieval
 

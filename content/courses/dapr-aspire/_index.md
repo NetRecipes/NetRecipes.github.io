@@ -67,8 +67,8 @@ flowchart LR
     click json-sec "/courses/dapr-aspire/secrets/#local-json-file" "Go to Local JSON Files"
     click env-sec "/courses/dapr-aspire/secrets/#environment-variable-secret-store" "Go to Environment Variables"
     click bind "/courses/dapr-aspire/bindings/" "Go to Bindings"
-    click cron "/courses/dapr-aspire/bindings/#cron" "Go to Bindings - CRON"
-    click store "/courses/dapr-aspire/bindings/#local-storage" "Go to Bindings - Storage"
+    click cron "/courses/dapr-aspire/bindings/#cron-input-binding" "Go to Bindings - CRON"
+    click store "/courses/dapr-aspire/bindings/#local-storage-output-binding" "Go to Bindings - Storage"
 ```
 
 ---

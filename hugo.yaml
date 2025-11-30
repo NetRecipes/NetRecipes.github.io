@@ -19,7 +19,7 @@ params:
   profileMode:
     enabled: true
     title: "Net Recipes"
-    subtitle: "<b>Net Recipes<br /></b><em>🍴 Cooking... 🍴</em><br />Cookbook for modern .NET Developers 👩‍💻<br />☁️Cloud‑Native 🕸️Distributed Systems."
+    subtitle: "Cookbook 📚 for modern .NET Developers 👩‍💻<br />☁️Cloud‑Native 🕸️Distributed Systems."
     imageUrl: "/assets/images/logo.jpg"
     imageTitle: "Net Recipes"
     buttons:

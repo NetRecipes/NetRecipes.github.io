@@ -238,3 +238,29 @@ body.list .main:has(.post-content) > ol {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Fixed main site header on desktop only */
+.header {
+    position: static;
+}
+
+/* Desktop and up: fix header, push content down */
+@media (min-width: 768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    body {
+        padding-top: 64px; /* tweak to header height */
+    }
+}
+
+/* Page/article headers scroll normally */
+.single .post-header,
+.single .page-header {
+    position: static;
+}

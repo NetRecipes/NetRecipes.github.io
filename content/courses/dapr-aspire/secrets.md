@@ -1,8 +1,8 @@
 ---
-date: '2025-11-01T05:00:00+05:30'
+date: '2025-12-01T05:00:00+05:30'
 title: '🔐 Secrets'
 summary: 'Secrets Store'
-tags: ['.NET Aspire', 'DAPR', 'Kubernetes']
+tags: ['.NET Aspire', 'DAPR']
 ShowToc: true
 weight: 5
 ---
@@ -22,6 +22,10 @@ flowchart LR
     SecretAPI --> FileStore
     SecretAPI -. switch later .-> Kubernetes
 ```
+
+![Secrets](https://i.ibb.co/R4dDV6Y8/secrets-menu.jpg)
+
+---
 
 ## Resources
 

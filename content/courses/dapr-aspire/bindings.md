@@ -1,5 +1,5 @@
 ---
-date: '2025-11-01T06:00:00+05:30'
+date: '2025-12-01T06:00:00+05:30'
 title: '🖇️ Bindings'
 summary: 'DAPR Bindings - Input and Output Bindings'
 tags: ['.NET Aspire', 'DAPR', 'CRON', 'Storage']
@@ -24,6 +24,10 @@ flowchart LR
     ServiceA -.->|"Other outputs"| Email
     ServiceA -.->|"Other outputs"| Queue
 ```
+
+![Bindings](https://i.ibb.co/nq8mvsN5/bindings-menu.jpg)
+
+---
 
 ## Resources
 

@@ -1,5 +1,5 @@
 ---
-date: '2025-11-01T01:00:00+05:30'
+date: '2025-12-01T01:00:00+05:30'
 title: '📒 State Management'
 summary: 'DAPR - State Store'
 tags: ['.NET Aspire', 'DAPR', 'Redis', 'State Management', 'In-Memory']
@@ -28,6 +28,8 @@ flowchart LR
     StateAPI -. switch later .-> Redis
 ```
 
+![State Management](https://i.ibb.co/wZPxjp77/state-management-menu.jpg)
+
 ---
 
 ## Resources
@@ -37,6 +39,7 @@ flowchart LR
 If you are stuck, you can refer the final source code, available at [GitHub Repository](https://github.com/NetRecipes/state-management)
 
 ---
+
 
 ## What is State Management, and Why It Matters?
 

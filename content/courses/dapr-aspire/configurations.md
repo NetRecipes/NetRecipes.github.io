@@ -1,5 +1,5 @@
 ---
-date: '2025-11-01T04:00:00+05:30'
+date: '2025-12-01T04:00:00+05:30'
 title: '⚙️ Configurations'
 summary: 'Configuration Store'
 tags: ['.NET Aspire', 'DAPR', 'Redis']
@@ -25,6 +25,10 @@ flowchart LR
     Redis -.->|"Notify changes"| ConfigAPI
     ConfigAPI -.->|"Push updates"| ServiceA
 ```
+
+![Configurations](https://i.ibb.co/nN87k7ss/config-menu.jpg)
+
+---
 
 ## Resources
 

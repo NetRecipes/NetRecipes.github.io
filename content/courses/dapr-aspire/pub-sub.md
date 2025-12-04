@@ -1,8 +1,8 @@
 ---
-date: '2025-11-01T03:00:00+05:30'
+date: '2025-12-01T03:00:00+05:30'
 title: '📨 Pub Sub'
 summary: 'Publish / Subscribe'
-tags: ['.NET Aspire', 'DAPR', 'Redis', 'Pub-Sub', 'In-Memory']
+tags: ['.NET Aspire', 'DAPR', 'Pub-Sub', 'Redis', 'RabbitMQ']
 ShowToc: true
 weight: 3
 ---
@@ -26,6 +26,10 @@ flowchart LR
     Broker -->|"Deliver event"| SidecarB
     SidecarB -->|"Invoke subscriber"| ServiceB
 ```
+
+![Pub / Sub](https://i.ibb.co/vCJHjwrC/pub-sub-menu.jpg)
+
+---
 
 ## Resources
 

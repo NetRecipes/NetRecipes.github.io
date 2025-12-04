@@ -1,5 +1,5 @@
 ---
-date: '2025-11-01T02:00:00+05:30'
+date: '2025-12-01T02:00:00+05:30'
 title: '📞 Service Invocation'
 summary: 'Service Discovery and Invocation'
 tags: ['.NET Aspire', 'DAPR']
@@ -25,6 +25,10 @@ flowchart LR
     SidecarB -->|"Forward request"| ServiceB
     ServiceB -.->|"Response"| ServiceA
 ```
+
+![Service Invocation](https://i.ibb.co/LzF4RYFq/service-invocation-menu.jpg)
+
+---
 
 ## Resources
 

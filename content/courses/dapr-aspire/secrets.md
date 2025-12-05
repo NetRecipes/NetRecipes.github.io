@@ -23,7 +23,7 @@ flowchart LR
     SecretAPI -. switch later .-> Kubernetes
 ```
 
-![Secrets](https://i.ibb.co/R4dDV6Y8/secrets-menu.jpg)
+![Secrets](https://i.ibb.co/cX3bxYjw/secrets-menu.jpg)
 
 ---
 

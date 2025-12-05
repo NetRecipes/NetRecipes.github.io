@@ -27,7 +27,7 @@ flowchart LR
     SidecarB -->|"Invoke subscriber"| ServiceB
 ```
 
-![Pub / Sub](https://i.ibb.co/vCJHjwrC/pub-sub-menu.jpg)
+![Pub / Sub](https://i.ibb.co/70ksSGH/pub-sub-menu.jpg)
 
 ---
 

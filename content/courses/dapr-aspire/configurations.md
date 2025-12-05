@@ -26,7 +26,7 @@ flowchart LR
     ConfigAPI -.->|"Push updates"| ServiceA
 ```
 
-![Configurations](https://i.ibb.co/nN87k7ss/config-menu.jpg)
+![Configurations](https://i.ibb.co/M55Q8Hbp/config-menu.jpg)
 
 ---
 

@@ -28,7 +28,7 @@ flowchart LR
     StateAPI -. switch later .-> Redis
 ```
 
-![State Management](https://i.ibb.co/wZPxjp77/state-management-menu.jpg)
+![State Management](https://i.ibb.co/gLBtqzvF/state-management-menu.jpg)
 
 ---
 

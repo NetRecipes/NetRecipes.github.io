@@ -25,8 +25,6 @@ flowchart LR
     ServiceA -.->|"Other outputs"| Queue
 ```
 
-![Bindings](https://i.ibb.co/XrG9zdLy/bindings-menu.jpg)
-
 ---
 
 ## Resources

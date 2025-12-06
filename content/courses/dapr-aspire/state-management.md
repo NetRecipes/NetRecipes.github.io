@@ -28,8 +28,6 @@ flowchart LR
     StateAPI -. switch later .-> Redis
 ```
 
-![State Management](https://i.ibb.co/gLBtqzvF/state-management-menu.jpg)
-
 ---
 
 ## Resources

@@ -26,8 +26,6 @@ flowchart LR
     ServiceB -.->|"Response"| ServiceA
 ```
 
-![Service Invocation](https://i.ibb.co/Z645yKWH/service-invocation-menu.jpg)
-
 ---
 
 ## Resources

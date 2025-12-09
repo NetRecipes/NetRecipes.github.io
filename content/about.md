@@ -38,3 +38,4 @@ The content you'll find here reflects years of architecting solutions and tackli
 
 [![GitHub](https://img.shields.io/badge/GitHub-spicycoder-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spicycoder)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Naveen_Kumar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spk2naveen)
+[![Twitter](https://img.shields.io/badge/Twitter-TheSpicyCoder-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TheSpicyCoder)

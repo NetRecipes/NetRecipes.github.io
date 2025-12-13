@@ -32,6 +32,9 @@ I'm **Naveen**, a Solution Architect with over 16 years of experience building d
         defer
         type="text/javascript"></script>
 
+[![GitHub](https://img.shields.io/badge/GitHub-spicycoder-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spicycoder)
+[![Twitter](https://img.shields.io/badge/Twitter-TheSpicyCoder-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TheSpicyCoder)
+
 ## My Focus
 
 I specialize in **Cloud-Native, Distributed Systems** that are portable, scalable, and cloud-agnostic. My work centers on helping developers build production-ready applications using modern patterns and frameworks, with a particular emphasis on:
@@ -56,8 +59,3 @@ The content you'll find here reflects years of architecting solutions and tackli
 🔗 **[CI/CD Template](https://github.com/spicycoder/CICDTemplate)** - Production-ready template combining `.NET Aspire` + `DAPR`
 
 > 💡 More courses and content on cloud-native patterns coming soon.
-
-## Connect With Me
-
-[![GitHub](https://img.shields.io/badge/GitHub-spicycoder-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spicycoder)
-[![Twitter](https://img.shields.io/badge/Twitter-TheSpicyCoder-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TheSpicyCoder)

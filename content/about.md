@@ -3,11 +3,34 @@ date: '2025-12-01T01:01:00+05:30'
 title: 'About'
 ---
 
-![Naveen](/assets/images/profile.png)
-
 ## Hi there 👋🏼
 
 I'm **Naveen**, a Solution Architect with over 16 years of experience building distributed systems across web, desktop, service, and mobile platforms.
+
+<div id="linkedin-badge"
+     class="badge-base LI-profile-badge"
+     data-locale="en_US"
+     data-size="large"
+     data-theme=""
+     data-type="HORIZONTAL"
+     data-vanity="spk2naveen"
+     data-version="v1"></div>
+
+<script>
+  (function () {
+    var theme =
+      document.documentElement.getAttribute('data-theme') || 'light';
+    var badge = document.getElementById('linkedin-badge');
+    if (badge) {
+      badge.setAttribute('data-theme', theme === 'dark' ? 'dark' : 'light');
+    }
+  })();
+</script>
+
+<script src="https://platform.linkedin.com/badges/js/profile.js"
+        async
+        defer
+        type="text/javascript"></script>
 
 ## My Focus
 
@@ -37,5 +60,4 @@ The content you'll find here reflects years of architecting solutions and tackli
 ## Connect With Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-spicycoder-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/spicycoder)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Naveen_Kumar-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/spk2naveen)
 [![Twitter](https://img.shields.io/badge/Twitter-TheSpicyCoder-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TheSpicyCoder)

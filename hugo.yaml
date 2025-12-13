@@ -34,7 +34,6 @@ params:
       url: "https://www.youtube.com/@NetRecipes"
     - name: "x"
       url: "https://x.com/NetRecipes"
-  
   assets:
     disableFingerprinting: true
   
@@ -77,5 +76,5 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    style: monokai
+    style: dracula
     lineNos: false

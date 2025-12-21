@@ -1,5 +1,5 @@
 ---
-date: '2025-12-01T06:00:00+05:30'
+date: '2025-12-06T01:00:00+05:30'
 title: '🖇️ Bindings'
 summary: 'DAPR Bindings - Input and Output Bindings'
 tags: ['.NET Aspire', 'DAPR', 'CRON', 'Storage']

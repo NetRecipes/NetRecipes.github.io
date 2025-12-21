@@ -1,5 +1,5 @@
 ---
-date: '2025-12-01T01:00:00+05:30'
+date: '2025-11-01T01:00:00+05:30'
 title: '📒 State Management'
 summary: 'DAPR - State Store'
 tags: ['.NET Aspire', 'DAPR', 'Redis', 'State Management', 'In-Memory']

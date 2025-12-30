@@ -10,6 +10,9 @@ outputs:
     - RSS
     - JSON  # Required for search
 
+pagination:
+  pagerSize: 24
+
 params:
   ShowReadingTime: true
   ShowShareButtons: false

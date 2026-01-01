@@ -1,6 +1,5 @@
 ---
-date: '2025-12-30T12:20:16+05:30'
-draft: true
+date: '2026-01-01T00:00:00+05:30'
 title: '️🏗️ Design Patterns 🔧 in C# 🎭'
 summary: 'A quick reference guide to all 23 design patterns with practical C# examples for when you need them.'
 weight: 2
@@ -9,6 +8,12 @@ weight: 2
 This course teaches you battle-tested design patterns every C# developer should know — from `Creational` to `Structural` to `Behavioral` patterns.  
 We use practical C# examples with modern .NET features to show when and how to apply each pattern effectively.  
 By the end of the course, you'll have a solid toolkit of proven solutions to common software design challenges you face daily.
+
+## Resources
+
+### 👩‍💻 Source Code
+
+If you are stuck, you can refer the final source code, available at [GitHub Repository](https://github.com/NetRecipes/design-patterns)
 
 ## Prerequisites
 

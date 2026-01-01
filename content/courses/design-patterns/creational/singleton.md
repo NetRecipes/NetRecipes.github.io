@@ -65,13 +65,8 @@ public class Singleton
 ## Real-World Examples
 
 | Example/Scenario | How the pattern applies |
-|-----------------|------------------------|
-| **Configuration Manager** | Application-wide settings need a single source of truth. Multiple instances would create inconsistencies and waste memory storing duplicate configuration data. |
+| --- | --- |
 | **Logger** | Centralizing log output through one instance ensures consistent formatting, prevents file access conflicts, and maintains a single point of control for log levels and destinations. |
+| **Configuration Manager** | Application-wide settings need a single source of truth. Multiple instances would create inconsistencies and waste memory storing duplicate configuration data. |
 | **Database Connection Pool** | Managing connections through a single coordinator prevents connection leaks, enforces connection limits, and provides efficient resource sharing across the application. |
 | **Cache Manager** | A shared cache instance prevents duplicate data in memory, ensures all parts of the application see the same cached values, and centralizes cache invalidation logic. |
-| **Hardware Interface** | Accessing hardware resources like printers or serial ports through one instance prevents conflicts from simultaneous access and ensures proper resource cleanup. |
-
-## Related Patterns
-
-Singleton is often used with **Abstract Factory**, **Builder**, and **Prototype** patterns when the factory, builder, or prototype registry itself needs to be a single shared instance. It differs from **Monostate** which achieves similar behavior through shared static state rather than instance restriction.

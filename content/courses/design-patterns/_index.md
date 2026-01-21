@@ -32,30 +32,30 @@ flowchart LR
     behavioral[🎭 Behavioral Patterns]
     
     singleton[🔒 Singleton]
-    factory[🏭 Factory Method]
-    builder[🧱 Builder]
-    abstract-factory[🏢 Abstract Factory]
-    prototype[🐑 Prototype]
+    factory[🏭 Factory Method 🚧]
+    builder[🧱 Builder 🚧]
+    abstract-factory[🏢 Abstract Factory 🚧]
+    prototype[🐑 Prototype 🚧]
     
-    decorator[🎁 Decorator]
-    adapter[🔌 Adapter]
-    facade[🏛️ Facade]
-    proxy[🚪 Proxy]
-    composite[🌳 Composite]
-    bridge[🌉 Bridge]
-    flyweight[🪶 Flyweight]
+    decorator[🎁 Decorator 🚧]
+    adapter[🔌 Adapter 🚧]
+    facade[🏛️ Facade 🚧]
+    proxy[🚪 Proxy 🚧]
+    composite[🌳 Composite 🚧]
+    bridge[🌉 Bridge 🚧]
+    flyweight[🪶 Flyweight 🚧]
     
-    strategy[🎯 Strategy]
-    observer[👁️ Observer]
-    command[📋 Command]
-    template[📝 Template Method]
-    state[🔄 State]
-    chain[⛓️ Chain of Responsibility]
-    iterator[🔁 Iterator]
-    mediator[🤝 Mediator]
-    visitor[🚶 Visitor]
-    memento[💾 Memento]
-    interpreter[📖 Interpreter]
+    strategy[🎯 Strategy 🚧]
+    observer[👁️ Observer 🚧]
+    command[📋 Command 🚧]
+    template[📝 Template Method 🚧]
+    state[🔄 State 🚧]
+    chain[⛓️ Chain of Responsibility 🚧]
+    iterator[🔁 Iterator 🚧]
+    mediator[🤝 Mediator 🚧]
+    visitor[🚶 Visitor 🚧]
+    memento[💾 Memento 🚧]
+    interpreter[📖 Interpreter 🚧]
     
     root --> creational
     root --> structural
@@ -86,36 +86,36 @@ flowchart LR
     behavioral --> visitor
     behavioral --> memento
     behavioral --> interpreter
-    
-    click singleton "/courses/design-patterns/creational/singleton/" "Go to Singleton Pattern"
-    click factory "/courses/design-patterns/creational/factory-method/" "Go to Factory Method Pattern"
-    click builder "/courses/design-patterns/creational/builder/" "Go to Builder Pattern"
-    click abstract-factory "/courses/design-patterns/creational/abstract-factory/" "Go to Abstract Factory Pattern"
-    click prototype "/courses/design-patterns/creational/prototype/" "Go to Prototype Pattern"
-    
-    click decorator "/courses/design-patterns/structural/decorator/" "Go to Decorator Pattern"
-    click adapter "/courses/design-patterns/structural/adapter/" "Go to Adapter Pattern"
-    click facade "/courses/design-patterns/structural/facade/" "Go to Facade Pattern"
-    click proxy "/courses/design-patterns/structural/proxy/" "Go to Proxy Pattern"
-    click composite "/courses/design-patterns/structural/composite/" "Go to Composite Pattern"
-    click bridge "/courses/design-patterns/structural/bridge/" "Go to Bridge Pattern"
-    click flyweight "/courses/design-patterns/structural/flyweight/" "Go to Flyweight Pattern"
-    
-    click strategy "/courses/design-patterns/behavioral/strategy/" "Go to Strategy Pattern"
-    click observer "/courses/design-patterns/behavioral/observer/" "Go to Observer Pattern"
-    click command "/courses/design-patterns/behavioral/command/" "Go to Command Pattern"
-    click template "/courses/design-patterns/behavioral/template-method/" "Go to Template Method Pattern"
-    click state "/courses/design-patterns/behavioral/state/" "Go to State Pattern"
-    click chain "/courses/design-patterns/behavioral/chain-of-responsibility/" "Go to Chain of Responsibility Pattern"
-    click iterator "/courses/design-patterns/behavioral/iterator/" "Go to Iterator Pattern"
-    click mediator "/courses/design-patterns/behavioral/mediator/" "Go to Mediator Pattern"
-    click visitor "/courses/design-patterns/behavioral/visitor/" "Go to Visitor Pattern"
-    click memento "/courses/design-patterns/behavioral/memento/" "Go to Memento Pattern"
-    click interpreter "/courses/design-patterns/behavioral/interpreter/" "Go to Interpreter Pattern"
 
     click creational "/courses/design-patterns/creational" "Go to Creational"
     click structural "/courses/design-patterns/structural" "Go to Structural"
     click behavioral "/courses/design-patterns/behavioral" "Go to Behavioral"
+
+    click singleton "/courses/design-patterns/creational/singleton/" "Go to Singleton Pattern"
+    %% click factory "/courses/design-patterns/creational/factory-method/" "Go to Factory Method Pattern"
+    %% click builder "/courses/design-patterns/creational/builder/" "Go to Builder Pattern"
+    %% click abstract-factory "/courses/design-patterns/creational/abstract-factory/" "Go to Abstract Factory Pattern"
+    %% click prototype "/courses/design-patterns/creational/prototype/" "Go to Prototype Pattern"
+    
+    %% click decorator "/courses/design-patterns/structural/decorator/" "Go to Decorator Pattern"
+    %% click adapter "/courses/design-patterns/structural/adapter/" "Go to Adapter Pattern"
+    %% click facade "/courses/design-patterns/structural/facade/" "Go to Facade Pattern"
+    %% click proxy "/courses/design-patterns/structural/proxy/" "Go to Proxy Pattern"
+    %% click composite "/courses/design-patterns/structural/composite/" "Go to Composite Pattern"
+    %% click bridge "/courses/design-patterns/structural/bridge/" "Go to Bridge Pattern"
+    %% click flyweight "/courses/design-patterns/structural/flyweight/" "Go to Flyweight Pattern"
+    
+    %% click strategy "/courses/design-patterns/behavioral/strategy/" "Go to Strategy Pattern"
+    %% click observer "/courses/design-patterns/behavioral/observer/" "Go to Observer Pattern"
+    %% click command "/courses/design-patterns/behavioral/command/" "Go to Command Pattern"
+    %% click template "/courses/design-patterns/behavioral/template-method/" "Go to Template Method Pattern"
+    %% click state "/courses/design-patterns/behavioral/state/" "Go to State Pattern"
+    %% click chain "/courses/design-patterns/behavioral/chain-of-responsibility/" "Go to Chain of Responsibility Pattern"
+    %% click iterator "/courses/design-patterns/behavioral/iterator/" "Go to Iterator Pattern"
+    %% click mediator "/courses/design-patterns/behavioral/mediator/" "Go to Mediator Pattern"
+    %% click visitor "/courses/design-patterns/behavioral/visitor/" "Go to Visitor Pattern"
+    %% click memento "/courses/design-patterns/behavioral/memento/" "Go to Memento Pattern"
+    %% click interpreter "/courses/design-patterns/behavioral/interpreter/" "Go to Interpreter Pattern"
 ```
 
 ## What to Expect from This Course
